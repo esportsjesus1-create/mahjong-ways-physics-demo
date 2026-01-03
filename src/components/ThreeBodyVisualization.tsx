@@ -2,7 +2,7 @@
 
 import { useRef, useMemo, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { OrbitControls, Trail, Sphere, Line } from '@react-three/drei';
+import { OrbitControls, Trail, Line } from '@react-three/drei';
 import * as THREE from 'three';
 import { SimulationState, Body } from '@/lib/three-body-api';
 
